@@ -72,6 +72,41 @@ main {
 	max-width: 430px;
 }
 
+
+h1 {
+	color: hsl(0, 0%, 8%);
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 550;
+	color: hsl(0, 0%, 41%);
+}
+
+button.btn {
+	color: hsl(0, 0%, 98%);
+	background-color: hsl(0, 0%, 8%);
+	border: solid 1px hsl(0, 0%, 8%) !important;
+	font-weight: 550;
+	border-radius: 15px;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	letter-spacing: 1px;
+}
+
+button.btn:hover {
+	background-color: transparent;
+	color: hsl(0, 0%, 8%);
+	transform: scale(1.1);
+	transition: transform 1s;
+}
+
+#client-row {
+	margin-top: 4rem;
+}
+
 @media (min-width: 992px) {
 	main {
 		padding-top: 5rem;
@@ -97,5 +132,25 @@ main {
 	#main-images-section {
 		padding-right: 9vw;
 		padding-left: 5vw;
+	}
+
+	#content-section {
+		padding-right: 5vw;
+		padding-left: 12vw;
+		height: 573px;
+	}
+
+	h1 {
+		font-size: 5rem;
+		line-height: 5rem;
+	}
+
+	#button-div {
+		margin-top: 2rem !important;
+	}
+
+	#client-row {
+		margin-top: 7vw;
+		gap: 2rem;
 	}
 }
